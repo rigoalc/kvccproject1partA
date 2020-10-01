@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<!--
+  Create a web page that will use JavaScript to prompt the user for their Valley ID number.
+  Using a confirm dialog box, display the number and ask them if it is the correct number.
+-->
+<head>
+<title>Project 1 Part A</title>
+</head>
+<body>
+<script>
+  var userInput = window.prompt("What is your valley id number?","V01234567");
+  if (userInput == null || userInput == "") {
+  txt = "User cancelled the prompt.";
+} else {
+  txt = "You said your valley id was " + userInput + "! Is this correct?";
+}
+window.confirm(txt);
+</script>>  
+</body>
+</html>
+
+
+
