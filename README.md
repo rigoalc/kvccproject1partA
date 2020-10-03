@@ -1,4 +1,4 @@
-# Part A – (25 Points) -
+# Part A
 
 Due Oct 3 by 11:59pm 
 
